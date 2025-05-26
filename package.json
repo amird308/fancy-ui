@@ -11,7 +11,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "author": "amird308",
   "peerDependencies": {
@@ -22,6 +24,13 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "8.6.14",
+    "@storybook/addon-interactions": "8.6.14",
+    "@storybook/addon-onboarding": "8.6.14",
+    "@storybook/blocks": "8.6.14",
+    "@storybook/react": "8.6.14",
+    "@storybook/react-vite": "8.6.14",
+    "@storybook/test": "8.6.14",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "autoprefixer": "^10.4.16",
@@ -32,6 +41,7 @@
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "8.6.14",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.3.3"
   },
@@ -40,4 +50,4 @@
     "@radix-ui/react-slot": "^1.0.2",
     "react-day-picker": "^8.10.0"
   }
-} 
+}
