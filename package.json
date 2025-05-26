@@ -1,0 +1,25 @@
+{
+  "name": "@demo-damirchi-ui/components",
+  "version": "1.0.0",
+  "description": "React UI component library",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "npm run build"
+  },
+
+  "author": "amird308",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+} 
