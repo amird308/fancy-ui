@@ -2,6 +2,7 @@ const resolve = require('@rollup/plugin-node-resolve');
 const commonjs = require('@rollup/plugin-commonjs');
 const typescript = require('@rollup/plugin-typescript');
 const peerDepsExternal = require('rollup-plugin-peer-deps-external');
+const postcss = require('rollup-plugin-postcss');
 const dts = require('rollup-plugin-dts').default;
 
 const packageJson = require('./package.json');
@@ -26,6 +27,16 @@ module.exports = [
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' }),
+      postcss({
+        config: {
+          path: './postcss.config.js',
+        },
+        extensions: ['.css'],
+        minimize: true,
+        inject: {
+          insertAt: 'top',
+        },
+      }),
     ],
   },
   {
