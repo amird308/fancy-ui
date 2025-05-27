@@ -1,6 +1,6 @@
 {
   "name": "@amird3088/fancy-ui",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "React UI component library",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -18,7 +18,8 @@
   "author": "amird308",
   "peerDependencies": {
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react-dom": ">=16.8.0",
+    "tailwindcss": ">=4.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -31,9 +32,9 @@
     "@storybook/react": "8.6.14",
     "@storybook/react-vite": "8.6.14",
     "@storybook/test": "8.6.14",
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -42,7 +43,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "8.6.14",
-    "tailwindcss": "^3.4.0",
+    "tailwindcss": "^4.1.7",
     "typescript": "^5.3.3"
   },
   "dependencies": {
@@ -50,6 +51,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "date-fns": "^4.1.0",
     "react-day-picker": "^8.10.0",
     "tailwind-merge": "^2.2.0"
   }
