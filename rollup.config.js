@@ -33,9 +33,7 @@ module.exports = [
         },
         extensions: ['.css'],
         minimize: true,
-        inject: {
-          insertAt: 'top',
-        },
+        extract: 'index.css',
       }),
     ],
   },

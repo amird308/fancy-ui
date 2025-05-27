@@ -2,6 +2,10 @@
 
 React UI component library built with Radix Primitives and TailwindCSS.
 
+#demo
+
+### https://demo-gules-tau.vercel.app/
+
 
 ## Installation
 
@@ -31,8 +35,8 @@ npm install react react-dom
 Import the component styles in your app's root file:
 
 ```tsx
-// In your main App.tsx or index.tsx
-import '@amird3088/fancy-ui/components/dist/index.css';
+// In your css
+@import '@amird3088/fancy-ui/dist/index.css';
 ```
 
 
