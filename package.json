@@ -1,6 +1,6 @@
 {
-  "name": "@amird308/fancy-ui",
-  "version": "1.0.0",
+  "name": "@amird3088/fancy-ui",
+  "version": "1.0.1",
   "description": "React UI component library",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
